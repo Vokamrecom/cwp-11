@@ -1,0 +1,7 @@
+{
+  "name": "cwp-11",
+  "author": "Kiril",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
