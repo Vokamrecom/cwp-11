@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('*', function (req, res, next) {
     console.log(req.url.toString());
-    res.sendFile('nophoto.jpg', { root: './public/images/actors'}, function (err) {
+    res.sendFile('00-6.jpg', { root: './public/images/actors'}, function (err) {
         if (err) {
             next(err);
         }
